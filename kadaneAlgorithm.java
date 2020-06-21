@@ -10,5 +10,10 @@ public class kadaneAlgorithm {
     return maxSoFar;
     }
 
+    public static void main(String[] args) {
+        int[] array = {1,2,-5,3,-2,8};
+        System.out.println(kadaneAlgorithm(array));
+    }
+
 
 }
