@@ -26,6 +26,9 @@ public class DoublyLinkedList<E> {
     }
     public int size () {return size;}
 
+    public Node<E> getHeader(){
+        return header;
+    }
     public boolean isEmpty() {return size ==0;}
 
     public E first () {
